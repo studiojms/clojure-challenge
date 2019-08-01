@@ -37,3 +37,5 @@
   "checkes if the mediatype is Paperback"
   [book]
   (= (:mediatype book) "Paperback"))
+
+(filter media-paperback? json-data)
